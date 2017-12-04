@@ -16,6 +16,7 @@ iOS8.0及以上
  pod  'FXStarRatingTool'
 ```
 2. **下载工程，把根目录的FXStarRatingTool文件夹整个拉入工程**
+
 ![image.png](http://upload-images.jianshu.io/upload_images/3569202-2ef4b4e4537c9e99.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - ### 使用
