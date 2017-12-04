@@ -10,8 +10,8 @@ import UIKit
 
 class FXStarRatingTool: NSObject {
     
-    public var themeColor: UIColor = UIColor.blue
-    public var isAllowHalf: Bool = false
+    public var themeColor: UIColor? = UIColor.blue
+    public var isAllowHalf: Bool? = false
     public var callBack:((Float) -> ())?
     private var count: Float = 0.0
     
