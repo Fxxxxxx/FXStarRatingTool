@@ -10,18 +10,10 @@ import UIKit
 
 class FXStarRatingTool: NSObject {
     
-    private var themeColor: UIColor = UIColor.blue
-    private var isAllowHalf: Bool = false
-    private var callBack:((Float) -> ())?
+    var themeColor: UIColor = UIColor.blue
+    var isAllowHalf: Bool = false
+    var callBack:((Float) -> ())?
     private var count: Float = 0.0
-    
-    func setThemeColor(color: UIColor) {
-        themeColor = color
-    }
-    
-    func setIsAllowHalf(isAllow: Bool) {
-        isAllowHalf = isAllow
-    }
     
     private lazy var showView: UIView = {
         
@@ -51,7 +43,7 @@ class FXStarRatingTool: NSObject {
         
         let sureBtn = UIButton.init(frame: CGRect.init(x: 150, y: 160, width: 150, height: 40))
         sureBtn.titleLabel?.font = UIFont.systemFont(ofSize: 14)
-        sureBtn.setTitleColor(self.themeColor, for: .normal)
+        sureBtn.setTitleColor(themeColor, for: .normal)
         sureBtn.setTitle("评价", for: .normal)
         sureBtn.addTarget(self, action: #selector(sureAction(sender:)), for: .touchUpInside)
         backView.addSubview(sureBtn)
@@ -99,3 +91,4 @@ class FXStarRatingTool: NSObject {
     }
     
 }
+
