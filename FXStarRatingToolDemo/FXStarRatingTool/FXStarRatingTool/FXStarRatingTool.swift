@@ -10,10 +10,18 @@ import UIKit
 
 class FXStarRatingTool: NSObject {
     
-    public var themeColor: UIColor? = UIColor.blue
-    public var isAllowHalf: Bool? = false
-    public var callBack:((Float) -> ())?
+    private var themeColor: UIColor = UIColor.blue
+    private var isAllowHalf: Bool = false
+    private var callBack:((Float) -> ())?
     private var count: Float = 0.0
+    
+    func setThemeColor(color: UIColor) {
+        themeColor = color
+    }
+    
+    func setIsAllowHalf(isAllow: Bool) {
+        isAllowHalf = isAllow
+    }
     
     private lazy var showView: UIView = {
        
@@ -49,7 +57,7 @@ class FXStarRatingTool: NSObject {
         backView.addSubview(sureBtn)
         
         let starView = FXRatingBar.init(frame: CGRect.init(x: (300 - 235) / 2, y: (200 - 24) / 2, width: 235, height: 24))
-        starView.isAllowHalf = self.isAllowHalf!
+        starView.isAllowHalf = isAllowHalf
         starView.callBack = { (scount: Float) -> () in
             self.count = scount
         }
