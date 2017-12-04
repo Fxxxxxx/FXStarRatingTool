@@ -15,6 +15,8 @@ class FXStarRatingTool: NSObject {
     var callBack:((Float) -> ())?
     private var count: Float = 0.0
     private var showView: UIView = UIView()
+    private let sureBtn = UIButton()
+    private let starView = FXRatingBar()
     
     override init() {
         
@@ -44,14 +46,14 @@ class FXStarRatingTool: NSObject {
         cancalBtn.addTarget(self, action: #selector(cancelAction(sender:)), for: .touchUpInside)
         backView.addSubview(cancalBtn)
         
-        let sureBtn = UIButton.init(frame: CGRect.init(x: 150, y: 160, width: 150, height: 40))
+        sureBtn.frame = CGRect.init(x: 150, y: 160, width: 150, height: 40)
         sureBtn.titleLabel?.font = UIFont.systemFont(ofSize: 14)
         sureBtn.setTitleColor(themeColor, for: .normal)
         sureBtn.setTitle("评价", for: .normal)
         sureBtn.addTarget(self, action: #selector(sureAction(sender:)), for: .touchUpInside)
         backView.addSubview(sureBtn)
         
-        let starView = FXRatingBar.init(frame: CGRect.init(x: (300 - 235) / 2, y: (200 - 24) / 2, width: 235, height: 24))
+        starView.frame = CGRect.init(x: (300 - 235) / 2, y: (200 - 24) / 2, width: 235, height: 24)
         starView.isAllowHalf = isAllowHalf
         starView.callBack = { (scount: Float) -> () in
             self.count = scount
@@ -74,6 +76,8 @@ class FXStarRatingTool: NSObject {
     
     func show() {
         
+        starView.isAllowHalf = self.isAllowHalf
+        sureBtn.setTitleColor(self.themeColor, for: .normal)
         UIApplication.shared.keyWindow?.addSubview(showView)
         
     }
