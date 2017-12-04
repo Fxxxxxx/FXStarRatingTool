@@ -11,9 +11,21 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
+    
+    var ratingView: FXStarRatingTool?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        ratingView = FXStarRatingTool()
+        ratingView?.isAllowHalf = true
+        ratingView?.themeColor = UIColor.red
+        ratingView?.callBack = { (count) -> () in
+            
+            self.label.text = "星数：\(count)"
+            
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,15 +35,7 @@ class ViewController: UIViewController {
 
     @IBAction func rating(_ sender: Any) {
         
-        let ratingView = FXStarRatingTool()
-        ratingView.isAllowHalf = true
-        ratingView.themeColor = UIColor.red
-        ratingView.callBack = { (count) -> () in
-            
-            self.label.text = "星数：\(count)"
-            
-        }
-        ratingView.show()
+        ratingView?.show()
         
     }
     
