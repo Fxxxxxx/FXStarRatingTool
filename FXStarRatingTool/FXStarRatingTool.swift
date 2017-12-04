@@ -8,17 +8,17 @@
 
 import UIKit
 
-class FXStarRatingTool: NSObject {
+public class FXStarRatingTool: NSObject {
     
-    var themeColor: UIColor = UIColor.blue
-    var isAllowHalf: Bool = false
-    var callBack:((Float) -> ())?
+    public var themeColor: UIColor = UIColor.blue
+    public var isAllowHalf: Bool = false
+    public var callBack:((Float) -> ())?
     private var count: Float = 0.0
     private var showView: UIView = UIView()
     private let sureBtn = UIButton()
     private let starView = FXRatingBar()
     
-    override init() {
+    override public init() {
         
         super.init()
         
@@ -74,7 +74,7 @@ class FXStarRatingTool: NSObject {
         
     }
     
-    func show() {
+    public func show() {
         
         starView.isAllowHalf = self.isAllowHalf
         sureBtn.setTitleColor(self.themeColor, for: .normal)
