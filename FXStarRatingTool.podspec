@@ -64,7 +64,8 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios
+  s.platform     = :ios, "8.0"
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -91,8 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "FXStarRatingTool", "FXStarRatingTool/FXStarRatingTool/FXStarRatingTool/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "FXStarRatingTool", "FXStarRatingTool/*.{swift}"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resource  = "FXStarRatingTool/FXStarRatingTool/FXStarRatingTool/star.bundle"
+  s.resource  = "FXStarRatingTool/star.bundle"
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
