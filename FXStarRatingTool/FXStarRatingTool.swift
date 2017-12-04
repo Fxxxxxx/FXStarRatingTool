@@ -10,9 +10,9 @@ import UIKit
 
 class FXStarRatingTool: NSObject {
     
-    var themeColor = UIColor.blue
-    var isAllowHalf = false
-    var callBack:((Float) -> ())?
+    open var themeColor = UIColor.blue
+    open var isAllowHalf = false
+    open var callBack:((Float) -> ())?
     private var count: Float = 0.0
     
     private lazy var showView: UIView = {
