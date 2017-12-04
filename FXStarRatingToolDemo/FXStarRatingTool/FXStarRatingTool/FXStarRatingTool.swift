@@ -10,8 +10,8 @@ import UIKit
 
 class FXStarRatingTool: NSObject {
     
-    public var themeColor: UIColor = UIColor.blue
-    public var isAllowHalf: Bool = false
+    public var themeColor: UIColor? = UIColor.blue
+    public var isAllowHalf: Bool? = false
     public var callBack:((Float) -> ())?
     private var count: Float = 0.0
     
@@ -49,7 +49,7 @@ class FXStarRatingTool: NSObject {
         backView.addSubview(sureBtn)
         
         let starView = FXRatingBar.init(frame: CGRect.init(x: (300 - 235) / 2, y: (200 - 24) / 2, width: 235, height: 24))
-        starView.isAllowHalf = self.isAllowHalf
+        starView.isAllowHalf = self.isAllowHalf!
         starView.callBack = { (scount: Float) -> () in
             self.count = scount
         }
