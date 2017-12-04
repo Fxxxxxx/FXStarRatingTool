@@ -14,15 +14,18 @@ class FXStarRatingTool: NSObject {
     var isAllowHalf: Bool = false
     var callBack:((Float) -> ())?
     private var count: Float = 0.0
+    private var showView: UIView = UIView()
     
-    private lazy var showView: UIView = {
+    override init() {
         
-        let view = UIView.init(frame: UIScreen.main.bounds)
-        view.backgroundColor = UIColor.init(red: 0, green: 0, blue: 0, alpha: 0.6)
+        super.init()
+        
+        showView.frame = UIScreen.main.bounds
+        showView.backgroundColor = UIColor.init(red: 0, green: 0, blue: 0, alpha: 0.6)
         
         let backView = UIView.init(frame: CGRect.init(x: 0, y: 0, width: 300, height: 200))
-        backView.center = view.center
-        view.addSubview(backView)
+        backView.center = showView.center
+        showView.addSubview(backView)
         backView.layer.masksToBounds = true
         backView.layer.cornerRadius = 10.0
         backView.backgroundColor = UIColor.white
@@ -67,13 +70,11 @@ class FXStarRatingTool: NSObject {
         centerLine.backgroundColor = UIColor.init(red: 235/255, green: 235/255, blue: 235/255, alpha: 1)
         backView.addSubview(centerLine)
         
-        return view
-        
-    }()
+    }
     
     func show() {
         
-        UIApplication.shared.keyWindow?.addSubview(self.showView)
+        UIApplication.shared.keyWindow?.addSubview(showView)
         
     }
     
@@ -91,4 +92,3 @@ class FXStarRatingTool: NSObject {
     }
     
 }
-
