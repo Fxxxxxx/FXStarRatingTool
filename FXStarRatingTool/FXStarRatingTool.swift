@@ -42,13 +42,13 @@ public class FXStarRatingTool: NSObject {
         
         let sureBtn = UIButton.init(frame: CGRect.init(x: 150, y: 160, width: 150, height: 40))
         sureBtn.titleLabel?.font = UIFont.systemFont(ofSize: 14)
-        sureBtn.setTitleColor(themeColor, for: .normal)
+        sureBtn.setTitleColor(self.themeColor, for: .normal)
         sureBtn.setTitle("评价", for: .normal)
         sureBtn.addTarget(self, action: #selector(sureAction(sender:)), for: .touchUpInside)
         backView.addSubview(sureBtn)
         
         let starView = FXRatingBar.init(frame: CGRect.init(x: (300 - 235) / 2, y: (200 - 24) / 2, width: 235, height: 24))
-        starView.isAllowHalf = isAllowHalf
+        starView.isAllowHalf = self.isAllowHalf
         starView.callBack = { (scount: Float) -> () in
             self.count = scount
         }
