@@ -6,45 +6,46 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FXStarRatingTool" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FXStarRatingToolDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="cRz-nh-H7j"/>
-                        <viewControllerLayoutGuide type="bottom" id="sLI-Cu-Bgn"/>
+                        <viewControllerLayoutGuide type="top" id="KzS-eG-f4M"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rbz-5p-Jvv"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="星数：  0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bP5-2U-iwI">
-                                <rect key="frame" x="151.5" y="134" width="71.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="星级：0星" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQ5-mo-ouS">
+                                <rect key="frame" x="147" y="147" width="80" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXn-TD-0zG">
-                                <rect key="frame" x="172" y="237" width="31" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRT-OA-CoT">
+                                <rect key="frame" x="171.5" y="259" width="31" height="30"/>
                                 <state key="normal" title="评价"/>
                                 <connections>
-                                    <action selector="rating:" destination="BYZ-38-t0r" eventType="touchUpInside" id="neN-dW-RQo"/>
+                                    <action selector="rating:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JRz-rV-zBs"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="bP5-2U-iwI" firstAttribute="top" secondItem="cRz-nh-H7j" secondAttribute="bottom" constant="114" id="6iE-3B-JQ3"/>
-                            <constraint firstItem="pXn-TD-0zG" firstAttribute="top" secondItem="bP5-2U-iwI" secondAttribute="bottom" constant="82" id="Ey9-pI-bZ3"/>
-                            <constraint firstItem="bP5-2U-iwI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OYZ-Gc-OUm"/>
-                            <constraint firstItem="pXn-TD-0zG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bkm-6V-eXT"/>
+                            <constraint firstItem="dQ5-mo-ouS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GjE-eq-ywt"/>
+                            <constraint firstItem="hRT-OA-CoT" firstAttribute="top" secondItem="dQ5-mo-ouS" secondAttribute="bottom" constant="91" id="bXC-DU-NZ4"/>
+                            <constraint firstItem="dQ5-mo-ouS" firstAttribute="top" secondItem="KzS-eG-f4M" secondAttribute="bottom" constant="127" id="jMW-71-TIt"/>
+                            <constraint firstItem="hRT-OA-CoT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jcY-q8-vzx"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="label" destination="bP5-2U-iwI" id="DR5-zp-PbJ"/>
+                        <outlet property="label" destination="dQ5-mo-ouS" id="Ob5-Zs-bip"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

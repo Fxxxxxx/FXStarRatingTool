@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		302295281FD5113E00733FB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302295271FD5113E00733FB1 /* AppDelegate.swift */; };
-		3022952A1FD5113E00733FB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302295291FD5113E00733FB1 /* ViewController.swift */; };
-		3022952D1FD5113E00733FB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3022952B1FD5113E00733FB1 /* Main.storyboard */; };
-		3022952F1FD5113E00733FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3022952E1FD5113E00733FB1 /* Assets.xcassets */; };
-		302295321FD5113E00733FB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302295301FD5113E00733FB1 /* LaunchScreen.storyboard */; };
-		3022953B1FD5119E00733FB1 /* FXStarRatingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022953A1FD5119E00733FB1 /* FXStarRatingTool.swift */; };
-		3022953D1FD512BE00733FB1 /* FXRatingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022953C1FD512BE00733FB1 /* FXRatingBar.swift */; };
-		3022953F1FD512DC00733FB1 /* star.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3022953E1FD512DC00733FB1 /* star.bundle */; };
+		3096F0BA1FD68A00005B3E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3096F0B91FD68A00005B3E38 /* AppDelegate.swift */; };
+		3096F0BC1FD68A00005B3E38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3096F0BB1FD68A00005B3E38 /* ViewController.swift */; };
+		3096F0BF1FD68A00005B3E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3096F0BD1FD68A00005B3E38 /* Main.storyboard */; };
+		3096F0C11FD68A00005B3E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3096F0C01FD68A00005B3E38 /* Assets.xcassets */; };
+		3096F0C41FD68A00005B3E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3096F0C21FD68A00005B3E38 /* LaunchScreen.storyboard */; };
+		3096F0CF1FD68A31005B3E38 /* FXRatingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3096F0CC1FD68A31005B3E38 /* FXRatingBar.swift */; };
+		3096F0D01FD68A31005B3E38 /* FXStarRatingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3096F0CD1FD68A31005B3E38 /* FXStarRatingTool.swift */; };
+		3096F0D11FD68A31005B3E38 /* star.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3096F0CE1FD68A31005B3E38 /* star.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		302295241FD5113E00733FB1 /* FXStarRatingTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXStarRatingTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		302295271FD5113E00733FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		302295291FD5113E00733FB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3022952C1FD5113E00733FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3022952E1FD5113E00733FB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		302295311FD5113E00733FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		302295331FD5113E00733FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3022953A1FD5119E00733FB1 /* FXStarRatingTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXStarRatingTool.swift; sourceTree = "<group>"; };
-		3022953C1FD512BE00733FB1 /* FXRatingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXRatingBar.swift; sourceTree = "<group>"; };
-		3022953E1FD512DC00733FB1 /* star.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = star.bundle; sourceTree = "<group>"; };
+		3096F0B61FD68A00005B3E38 /* FXStarRatingToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXStarRatingToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3096F0B91FD68A00005B3E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3096F0BB1FD68A00005B3E38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3096F0BE1FD68A00005B3E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3096F0C01FD68A00005B3E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3096F0C31FD68A00005B3E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3096F0C51FD68A00005B3E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3096F0CC1FD68A31005B3E38 /* FXRatingBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXRatingBar.swift; sourceTree = "<group>"; };
+		3096F0CD1FD68A31005B3E38 /* FXStarRatingTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXStarRatingTool.swift; sourceTree = "<group>"; };
+		3096F0CE1FD68A31005B3E38 /* star.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = star.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		302295211FD5113E00733FB1 /* Frameworks */ = {
+		3096F0B31FD68A00005B3E38 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,83 +41,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3022951B1FD5113E00733FB1 = {
+		3096F0AD1FD68A00005B3E38 = {
 			isa = PBXGroup;
 			children = (
-				302295261FD5113E00733FB1 /* FXStarRatingTool */,
-				302295251FD5113E00733FB1 /* Products */,
+				3096F0B81FD68A00005B3E38 /* FXStarRatingToolDemo */,
+				3096F0B71FD68A00005B3E38 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		302295251FD5113E00733FB1 /* Products */ = {
+		3096F0B71FD68A00005B3E38 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				302295241FD5113E00733FB1 /* FXStarRatingTool.app */,
+				3096F0B61FD68A00005B3E38 /* FXStarRatingToolDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		302295261FD5113E00733FB1 /* FXStarRatingTool */ = {
+		3096F0B81FD68A00005B3E38 /* FXStarRatingToolDemo */ = {
 			isa = PBXGroup;
 			children = (
-				302295391FD5117000733FB1 /* FXStarRatingTool */,
-				302295271FD5113E00733FB1 /* AppDelegate.swift */,
-				302295291FD5113E00733FB1 /* ViewController.swift */,
-				3022952B1FD5113E00733FB1 /* Main.storyboard */,
-				3022952E1FD5113E00733FB1 /* Assets.xcassets */,
-				302295301FD5113E00733FB1 /* LaunchScreen.storyboard */,
-				302295331FD5113E00733FB1 /* Info.plist */,
+				3096F0CB1FD68A31005B3E38 /* FXStarRatingTool */,
+				3096F0B91FD68A00005B3E38 /* AppDelegate.swift */,
+				3096F0BB1FD68A00005B3E38 /* ViewController.swift */,
+				3096F0BD1FD68A00005B3E38 /* Main.storyboard */,
+				3096F0C01FD68A00005B3E38 /* Assets.xcassets */,
+				3096F0C21FD68A00005B3E38 /* LaunchScreen.storyboard */,
+				3096F0C51FD68A00005B3E38 /* Info.plist */,
 			);
-			path = FXStarRatingTool;
+			path = FXStarRatingToolDemo;
 			sourceTree = "<group>";
 		};
-		302295391FD5117000733FB1 /* FXStarRatingTool */ = {
+		3096F0CB1FD68A31005B3E38 /* FXStarRatingTool */ = {
 			isa = PBXGroup;
 			children = (
-				3022953A1FD5119E00733FB1 /* FXStarRatingTool.swift */,
-				3022953C1FD512BE00733FB1 /* FXRatingBar.swift */,
-				3022953E1FD512DC00733FB1 /* star.bundle */,
+				3096F0CC1FD68A31005B3E38 /* FXRatingBar.swift */,
+				3096F0CD1FD68A31005B3E38 /* FXStarRatingTool.swift */,
+				3096F0CE1FD68A31005B3E38 /* star.bundle */,
 			);
-			path = FXStarRatingTool;
+			name = FXStarRatingTool;
+			path = ../../FXStarRatingTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		302295231FD5113E00733FB1 /* FXStarRatingTool */ = {
+		3096F0B51FD68A00005B3E38 /* FXStarRatingToolDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 302295361FD5113E00733FB1 /* Build configuration list for PBXNativeTarget "FXStarRatingTool" */;
+			buildConfigurationList = 3096F0C81FD68A00005B3E38 /* Build configuration list for PBXNativeTarget "FXStarRatingToolDemo" */;
 			buildPhases = (
-				302295201FD5113E00733FB1 /* Sources */,
-				302295211FD5113E00733FB1 /* Frameworks */,
-				302295221FD5113E00733FB1 /* Resources */,
+				3096F0B21FD68A00005B3E38 /* Sources */,
+				3096F0B31FD68A00005B3E38 /* Frameworks */,
+				3096F0B41FD68A00005B3E38 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FXStarRatingTool;
-			productName = FXStarRatingTool;
-			productReference = 302295241FD5113E00733FB1 /* FXStarRatingTool.app */;
+			name = FXStarRatingToolDemo;
+			productName = FXStarRatingToolDemo;
+			productReference = 3096F0B61FD68A00005B3E38 /* FXStarRatingToolDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3022951C1FD5113E00733FB1 /* Project object */ = {
+		3096F0AE1FD68A00005B3E38 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Aaron Feng";
 				TargetAttributes = {
-					302295231FD5113E00733FB1 = {
+					3096F0B51FD68A00005B3E38 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 3022951F1FD5113E00733FB1 /* Build configuration list for PBXProject "FXStarRatingTool" */;
+			buildConfigurationList = 3096F0B11FD68A00005B3E38 /* Build configuration list for PBXProject "FXStarRatingToolDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,57 +126,57 @@
 				en,
 				Base,
 			);
-			mainGroup = 3022951B1FD5113E00733FB1;
-			productRefGroup = 302295251FD5113E00733FB1 /* Products */;
+			mainGroup = 3096F0AD1FD68A00005B3E38;
+			productRefGroup = 3096F0B71FD68A00005B3E38 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				302295231FD5113E00733FB1 /* FXStarRatingTool */,
+				3096F0B51FD68A00005B3E38 /* FXStarRatingToolDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		302295221FD5113E00733FB1 /* Resources */ = {
+		3096F0B41FD68A00005B3E38 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				302295321FD5113E00733FB1 /* LaunchScreen.storyboard in Resources */,
-				3022953F1FD512DC00733FB1 /* star.bundle in Resources */,
-				3022952F1FD5113E00733FB1 /* Assets.xcassets in Resources */,
-				3022952D1FD5113E00733FB1 /* Main.storyboard in Resources */,
+				3096F0C41FD68A00005B3E38 /* LaunchScreen.storyboard in Resources */,
+				3096F0D11FD68A31005B3E38 /* star.bundle in Resources */,
+				3096F0C11FD68A00005B3E38 /* Assets.xcassets in Resources */,
+				3096F0BF1FD68A00005B3E38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		302295201FD5113E00733FB1 /* Sources */ = {
+		3096F0B21FD68A00005B3E38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3022953D1FD512BE00733FB1 /* FXRatingBar.swift in Sources */,
-				3022952A1FD5113E00733FB1 /* ViewController.swift in Sources */,
-				302295281FD5113E00733FB1 /* AppDelegate.swift in Sources */,
-				3022953B1FD5119E00733FB1 /* FXStarRatingTool.swift in Sources */,
+				3096F0D01FD68A31005B3E38 /* FXStarRatingTool.swift in Sources */,
+				3096F0CF1FD68A31005B3E38 /* FXRatingBar.swift in Sources */,
+				3096F0BC1FD68A00005B3E38 /* ViewController.swift in Sources */,
+				3096F0BA1FD68A00005B3E38 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3022952B1FD5113E00733FB1 /* Main.storyboard */ = {
+		3096F0BD1FD68A00005B3E38 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3022952C1FD5113E00733FB1 /* Base */,
+				3096F0BE1FD68A00005B3E38 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		302295301FD5113E00733FB1 /* LaunchScreen.storyboard */ = {
+		3096F0C21FD68A00005B3E38 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				302295311FD5113E00733FB1 /* Base */,
+				3096F0C31FD68A00005B3E38 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -183,7 +184,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		302295341FD5113E00733FB1 /* Debug */ = {
+		3096F0C61FD68A00005B3E38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +241,7 @@
 			};
 			name = Debug;
 		};
-		302295351FD5113E00733FB1 /* Release */ = {
+		3096F0C71FD68A00005B3E38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -290,32 +291,32 @@
 			};
 			name = Release;
 		};
-		302295371FD5113E00733FB1 /* Debug */ = {
+		3096F0C91FD68A00005B3E38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MV9B26HCTK;
-				INFOPLIST_FILE = FXStarRatingTool/Info.plist;
+				INFOPLIST_FILE = FXStarRatingToolDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Aaron-Feng.FXStarRatingTool";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aaron-Feng.FXStarRatingToolDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		302295381FD5113E00733FB1 /* Release */ = {
+		3096F0CA1FD68A00005B3E38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MV9B26HCTK;
-				INFOPLIST_FILE = FXStarRatingTool/Info.plist;
+				INFOPLIST_FILE = FXStarRatingToolDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Aaron-Feng.FXStarRatingTool";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aaron-Feng.FXStarRatingToolDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,25 +326,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3022951F1FD5113E00733FB1 /* Build configuration list for PBXProject "FXStarRatingTool" */ = {
+		3096F0B11FD68A00005B3E38 /* Build configuration list for PBXProject "FXStarRatingToolDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				302295341FD5113E00733FB1 /* Debug */,
-				302295351FD5113E00733FB1 /* Release */,
+				3096F0C61FD68A00005B3E38 /* Debug */,
+				3096F0C71FD68A00005B3E38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		302295361FD5113E00733FB1 /* Build configuration list for PBXNativeTarget "FXStarRatingTool" */ = {
+		3096F0C81FD68A00005B3E38 /* Build configuration list for PBXNativeTarget "FXStarRatingToolDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				302295371FD5113E00733FB1 /* Debug */,
-				302295381FD5113E00733FB1 /* Release */,
+				3096F0C91FD68A00005B3E38 /* Debug */,
+				3096F0CA1FD68A00005B3E38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3022951C1FD5113E00733FB1 /* Project object */;
+	rootObject = 3096F0AE1FD68A00005B3E38 /* Project object */;
 }

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  FXStarRatingTool
+//  FXStarRatingToolDemo
 //
-//  Created by Fxxx on 2017/12/4.
+//  Created by Fxxx on 2017/12/5.
 //  Copyright © 2017年 Aaron Feng. All rights reserved.
 //
 
