@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FXStarRatingTool"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "超级简单易用的星星评分工具."
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Fxxxxxx/FXStarRatingTool.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/Fxxxxxx/FXStarRatingTool.git", :tag => "1.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

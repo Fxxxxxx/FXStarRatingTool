@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		303D78571FD6911C000A1BBD /* FXRatingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303D78541FD6911C000A1BBD /* FXRatingBar.swift */; };
+		303D78581FD6911C000A1BBD /* FXStarRatingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303D78551FD6911C000A1BBD /* FXStarRatingTool.swift */; };
+		303D78591FD6911C000A1BBD /* star.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 303D78561FD6911C000A1BBD /* star.bundle */; };
 		3096F0BA1FD68A00005B3E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3096F0B91FD68A00005B3E38 /* AppDelegate.swift */; };
 		3096F0BC1FD68A00005B3E38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3096F0BB1FD68A00005B3E38 /* ViewController.swift */; };
 		3096F0BF1FD68A00005B3E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3096F0BD1FD68A00005B3E38 /* Main.storyboard */; };
 		3096F0C11FD68A00005B3E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3096F0C01FD68A00005B3E38 /* Assets.xcassets */; };
 		3096F0C41FD68A00005B3E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3096F0C21FD68A00005B3E38 /* LaunchScreen.storyboard */; };
-		3096F0CF1FD68A31005B3E38 /* FXRatingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3096F0CC1FD68A31005B3E38 /* FXRatingBar.swift */; };
-		3096F0D01FD68A31005B3E38 /* FXStarRatingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3096F0CD1FD68A31005B3E38 /* FXStarRatingTool.swift */; };
-		3096F0D11FD68A31005B3E38 /* star.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3096F0CE1FD68A31005B3E38 /* star.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		303D78541FD6911C000A1BBD /* FXRatingBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXRatingBar.swift; sourceTree = "<group>"; };
+		303D78551FD6911C000A1BBD /* FXStarRatingTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXStarRatingTool.swift; sourceTree = "<group>"; };
+		303D78561FD6911C000A1BBD /* star.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = star.bundle; sourceTree = "<group>"; };
 		3096F0B61FD68A00005B3E38 /* FXStarRatingToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXStarRatingToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3096F0B91FD68A00005B3E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3096F0BB1FD68A00005B3E38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,9 +28,6 @@
 		3096F0C01FD68A00005B3E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3096F0C31FD68A00005B3E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3096F0C51FD68A00005B3E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3096F0CC1FD68A31005B3E38 /* FXRatingBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXRatingBar.swift; sourceTree = "<group>"; };
-		3096F0CD1FD68A31005B3E38 /* FXStarRatingTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXStarRatingTool.swift; sourceTree = "<group>"; };
-		3096F0CE1FD68A31005B3E38 /* star.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = star.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		303D78531FD6911C000A1BBD /* FXStarRatingTool */ = {
+			isa = PBXGroup;
+			children = (
+				303D78541FD6911C000A1BBD /* FXRatingBar.swift */,
+				303D78551FD6911C000A1BBD /* FXStarRatingTool.swift */,
+				303D78561FD6911C000A1BBD /* star.bundle */,
+			);
+			path = FXStarRatingTool;
+			sourceTree = "<group>";
+		};
 		3096F0AD1FD68A00005B3E38 = {
 			isa = PBXGroup;
 			children = (
@@ -60,7 +70,7 @@
 		3096F0B81FD68A00005B3E38 /* FXStarRatingToolDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3096F0CB1FD68A31005B3E38 /* FXStarRatingTool */,
+				303D78531FD6911C000A1BBD /* FXStarRatingTool */,
 				3096F0B91FD68A00005B3E38 /* AppDelegate.swift */,
 				3096F0BB1FD68A00005B3E38 /* ViewController.swift */,
 				3096F0BD1FD68A00005B3E38 /* Main.storyboard */,
@@ -69,17 +79,6 @@
 				3096F0C51FD68A00005B3E38 /* Info.plist */,
 			);
 			path = FXStarRatingToolDemo;
-			sourceTree = "<group>";
-		};
-		3096F0CB1FD68A31005B3E38 /* FXStarRatingTool */ = {
-			isa = PBXGroup;
-			children = (
-				3096F0CC1FD68A31005B3E38 /* FXRatingBar.swift */,
-				3096F0CD1FD68A31005B3E38 /* FXStarRatingTool.swift */,
-				3096F0CE1FD68A31005B3E38 /* star.bundle */,
-			);
-			name = FXStarRatingTool;
-			path = ../../FXStarRatingTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3096F0C41FD68A00005B3E38 /* LaunchScreen.storyboard in Resources */,
-				3096F0D11FD68A31005B3E38 /* star.bundle in Resources */,
+				303D78591FD6911C000A1BBD /* star.bundle in Resources */,
 				3096F0C11FD68A00005B3E38 /* Assets.xcassets in Resources */,
 				3096F0BF1FD68A00005B3E38 /* Main.storyboard in Resources */,
 			);
@@ -155,8 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3096F0D01FD68A31005B3E38 /* FXStarRatingTool.swift in Sources */,
-				3096F0CF1FD68A31005B3E38 /* FXRatingBar.swift in Sources */,
+				303D78581FD6911C000A1BBD /* FXStarRatingTool.swift in Sources */,
+				303D78571FD6911C000A1BBD /* FXRatingBar.swift in Sources */,
 				3096F0BC1FD68A00005B3E38 /* ViewController.swift in Sources */,
 				3096F0BA1FD68A00005B3E38 /* AppDelegate.swift in Sources */,
 			);

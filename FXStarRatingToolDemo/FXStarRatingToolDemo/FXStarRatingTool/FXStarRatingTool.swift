@@ -15,7 +15,7 @@ public class FXStarRatingTool: NSObject {
     public var callBack:((Float) -> ())?
     private var count: Float = 0.0
     private lazy var showView: UIView = {
-        
+       
         let view = UIView.init(frame: UIScreen.main.bounds)
         view.backgroundColor = UIColor.init(red: 0, green: 0, blue: 0, alpha: 0.6)
         
